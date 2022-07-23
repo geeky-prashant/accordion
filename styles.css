@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #5b8f7c;
+}
+#heading {
+  color: #fff;
+  display: grid;
+  place-items: center;
+  margin: 50px auto;
+}
+#accordion {
+  margin: 10px auto;
+  width: 600px;
+}
+#accordion li {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+#accordion li label {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #365865;
+}
+#accordion li label span {
+  transform: rotate(90deg);
+  font-size: 16px;
+  font-weight: 600;
+  color: #365865;
+}
+#accordion label + input[type="radio"] {
+  display: none;
+}
+#accordion .content {
+  padding: 0 10px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+#accordion label + input[type="radio"]:checked + .content {
+  max-height: 400px;
+}
