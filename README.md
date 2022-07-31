@@ -9,7 +9,7 @@
 
   <h2 align="center">Accordion</h2>
 
-  In this project, I have created Accordion Menu design, <br />The project is built using HTML5 & CSS3.
+  In this project, I have created Accordion Menu design, The project is built using HTML5 & CSS3.
 
   <a href="https://geeky-prashant.github.io/accordion/"><strong>➥ Live Demo</strong></a>
 
